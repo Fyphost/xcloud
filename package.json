@@ -1,0 +1,19 @@
+{
+  "name": "xcloud",
+  "version": "1.0.0",
+  "description": "Cloud file storage with a user dashboard and share pages with a countdown timer and ad slots.",
+  "main": "src/server.js",
+  "private": true,
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/server.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch src/server.js"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fyphost/xcloud.git"
+  },
+  "license": "ISC"
+}
